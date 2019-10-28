@@ -58,7 +58,7 @@ public class ApplicationConfig extends WebMvcConfigurerAdapter implements Applic
     //Config Formatter
     @Override
     public void addFormatters(FormatterRegistry registry) {
-        //registry.addFormatter(new StringToLocalDateFormatter());
+        registry.addFormatter(new StringToLocalDateFormatter());
     }
 
 }
